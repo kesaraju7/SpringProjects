@@ -1,0 +1,12 @@
+package com.example.demo.Student;
+
+@RestController
+public class StudentController {
+	
+	@GetMapping
+	public String hello() {
+		return "Hello world";
+	}
+	
+
+}

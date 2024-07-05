@@ -1,0 +1,16 @@
+package com.example.demo.Student;
+
+import java.time.LocalDate;
+import java.time.Month;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Component
+public class StudentService {
+  
+	public List<Student> getStudents(){
+		return List.of
+				(new Student(1L,"John",LocalDate.of(1998, Month.APRIL, 5),"John@gmail.com",26));
+	}
+}

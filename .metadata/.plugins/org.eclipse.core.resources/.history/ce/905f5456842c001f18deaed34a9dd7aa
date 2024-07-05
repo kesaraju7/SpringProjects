@@ -1,0 +1,9 @@
+package com.example.demo.Student;
+
+@Service
+public class StudentService {
+  
+	public List<Student> getStudents(){
+		return null;
+	}
+}
